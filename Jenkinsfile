@@ -16,8 +16,8 @@ pipeline {
   environment {
     image = "wicope/go-demo-5"
     project = "go-demo-5"
-    domain = "35.227.96.119.nip.io"
-    cmAddr = "cm.35.227.96.119.nip.io"
+    domain = "104.196.6.227.nip.io"
+    cmAddr = "cm.104.196.6.227.nip.io"
   }
   stages {
     stage("build") {
